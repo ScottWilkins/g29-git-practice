@@ -10,5 +10,7 @@ router.get('/dog', function(req, res, next) {
 router.get('/cat', function(req, res, next) {
   res.send("Meow, I'm a cat")
 });
-
+router.get('/cow', function(req, res, next) {
+  res.send("Moo, I'm a cow")
+});
 module.exports = router;
