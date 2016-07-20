@@ -13,6 +13,10 @@ router.get('/cat', function(req, res, next) {
 
 router.get('/duck', function(req, res, next) {
   res.send("Quack, I'm a duck")
-})
+});
+
+router.get('/cow', function(req, res, next) {
+  res.send("Moo, I'm a cow")
+});
 
 module.exports = router;
