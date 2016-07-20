@@ -11,4 +11,8 @@ router.get('/cat', function(req, res, next) {
   res.send("Meow, I'm a cat")
 });
 
+router.get('/duck', function(req, res, next) {
+  res.send("Quack, I'm a duck")
+})
+
 module.exports = router;
